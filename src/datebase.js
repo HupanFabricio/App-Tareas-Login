@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/notes-db-app', {
+mongoose.connect('mongodb+srv://c0d3fabri:Zaira12342!@test.usbrsvk.mongodb.net/test', {
     useNewUrlParser: true
 })
     .then(db => console.log('DB is connect'))
