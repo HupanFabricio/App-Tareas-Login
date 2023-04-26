@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://c0d3fabri:Zaira12342!@test.usbrsvk.mongodb.net/test', {
+mongoose.connect('mongodb+srv://c0d3fabri:Fabricio123@appnotes.0k965a0.mongodb.net/test', {
     useNewUrlParser: true
 })
     .then(db => console.log('DB is connect'))
