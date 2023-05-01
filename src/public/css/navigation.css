@@ -1,0 +1,26 @@
+.nav {
+    background-color: rgba(0,0,0,0.3);
+}
+.nav:hover {
+    background-color: rgba(0,0,0,0.35);
+}
+.nav .container{
+    display: flex;
+}
+
+.navbar {
+    padding: 0 12px 0 12px;
+}
+    .navbar-brand{
+        color:azure
+    }
+    .navbar-brand:hover{
+        color: azure;
+    }
+
+.menu-items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    justify-content: space-between;
+}
